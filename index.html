@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius fuga laudantium sequi laboriosam sunt ad dignissimos veritatis quae velit impedit. Eius voluptatibus voluptas veritatis dolores, doloremque doloribus eveniet libero!</p> -->
+  
+  <!-- <h1>Count: <span id="count">0</span></h1>
+  <button id="increment" class="changeCount">+</button>
+  <button id="decrement" class="changeCount">-</button> -->
+
+  <h1 id="myHeader">Hello World!</h1>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script>
+
+    $('#myHeader').animate({ 
+      opacity: 0,
+      fontSize: '25px',
+      marginTop: '100px'
+      }, 3000)
+
+    // let count = 0
+
+    // $('.changeCount').click(function () {
+    //   if ($(this).attr('id') === 'increment') {
+    //     count++
+    //   } else {
+    //     count--
+    //   }
+    //   $('#count').text(count)
+    // })
+
+    // $('.changeCount').click(function () {
+    //   console.log($(this).text())
+    // })
+
+    // $('.changeCount').click(event => {
+    //   if (event.target.id === 'increment') {
+    //     count++
+    //   } else {
+    //     count--
+    //   }
+    //   $('#count').text(count)
+    // })
+
+    // $('#increment').click(() => {
+    //   count++
+    //   $('#count').text(count)
+    // })
+
+    // $('#decrement').click(() => {
+    //   count--
+    //   $('#count').text(count)
+    // })
+
+    // console.log($('#text').text())
+
+  </script>
+</body>
+</html>
